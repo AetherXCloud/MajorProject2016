@@ -1,12 +1,20 @@
 body {
   margin: 0;
+  color: #000;
+  font-family: "Source Sans Pro";
+}
+body a {
+  color: #000;
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: transparent;
   position: fixed;
   text-align: center;
   width: 100%;
+  z-index: 2;
+  -webkit-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out;
 }
 header ul {
   list-style-type: none;
@@ -17,8 +25,9 @@ header ul li {
 }
 header ul li a {
   color: #fff;
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
   text-decoration: none;
+  padding: 10px;
 }
 
 section {
@@ -33,7 +42,9 @@ section#landing .cta {
   text-align: center;
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 section#landing .cta h2 {
   margin: 0;
@@ -53,8 +64,16 @@ section#landing .cta p.subheading {
   display: inline;
   padding: 4px 0;
 }
-section#landing .cta a {
+section#landing .cta .cta {
   display: block;
+  padding: 15px;
+  margin-top: 40px;
+}
+section#landing .cta .cta a {
+  padding: 10px 50px;
+  background-color: #a49145;
+  color: #fff;
+  text-decoration: none;
 }
 section#landing video {
   position: fixed;
@@ -66,12 +85,12 @@ section#landing video {
   height: auto;
   z-index: -100;
   -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   background: url("polina.jpg") no-repeat;
   background-size: cover;
-  -webkit-filter: brightness(80%);
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
 }
 
 /*# sourceMappingURL=style.css.map */
