@@ -1,7 +1,7 @@
 body {
   margin: 0;
   color: #000;
-  font-family: "Source Sans Pro";
+  font-family: "Raleway";
 }
 body a {
   color: #000;
@@ -25,7 +25,7 @@ header ul li {
 }
 header ul li a {
   color: #fff;
-  font-family: "Source Sans Pro";
+  font-family: "Raleway";
   text-decoration: none;
   padding: 10px;
 }
@@ -48,7 +48,7 @@ section#landing .cta {
 }
 section#landing .cta h2 {
   margin: 0;
-  font-family: Source Sans Pro;
+  font-family: "Raleway";
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -59,6 +59,8 @@ section#landing .cta h2 {
 section#landing .cta p.subheading {
   color: #fff;
   font-family: "Libre Baskerville";
+  font-size: 1.05rem;
+  font-style: italic;
   box-shadow: rgba(0, 0, 0, 0.5) 10px 0 0 0, rgba(0, 0, 0, 0.5) -10px 0 0 0;
   background-color: rgba(0, 0, 0, 0.5);
   display: inline;
@@ -89,8 +91,8 @@ section#landing video {
   transform: translateX(-50%) translateY(-50%);
   background: url("polina.jpg") no-repeat;
   background-size: cover;
-  -webkit-filter: brightness(90%);
-          filter: brightness(90%);
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
 }
 
 /*# sourceMappingURL=style.css.map */
