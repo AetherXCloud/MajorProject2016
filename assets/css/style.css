@@ -70,7 +70,6 @@ section#landing .panels .inner {
 	max-width: 900px;
 	margin: 0 auto;
 	display: flex;
-	flex-wrap: wrap;
 }
 section#landing .panels .inner .panel {
 	flex-grow: 1;
@@ -586,6 +585,9 @@ section p {
 }
 
 @media (max-width: 600px) {
+	section#landing .panels .inner {
+		flex-wrap: wrap;
+	}
 	section.cta-section p{
 		max-width: 100%;
 	}
